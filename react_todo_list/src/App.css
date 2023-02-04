@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+   font-family: "Poppins",sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color:rgb(2, 129, 172);
+    margin-top:20px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.task-input {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+    color: gray;
+    outline: none;
+    margin-right: 10px;
+}
+
+.task-button {
+    padding: 10px 20px;
+    background-color: rgb(2, 129, 172);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.task-table th,
+.task-table td {
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    text-align: left;
+}
+
+.task-table th {
+    background-color: rgb(2, 129, 172);
+    color: white;
+    border:2px solid;
+    font-size: 1.2rem;
+    font-weight:800;
+}
+
+.faTrash {
+    cursor: pointer;
+    color: red;
+}
+.icon-display{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+}
+.reset{
+    text-align:center;
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(2, 129, 172);
+    border:2px solid rgb(2, 129, 172);
+    font-weight: bold;
+    font-size: 16px;
+    margin-top:20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button.reset:hover{
+    background-color: rgb(2, 129, 172);
+    color: white;
+}
+.container{
+width:50%;
+align-items:center;
+margin:auto;
+}
+.btn_container{
+    width:100%;
+    text-align:center;
+}
